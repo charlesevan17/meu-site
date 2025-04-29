@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Canal Acessibilidade Pro</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .link-list a {
+      display: block;
+      margin-bottom: 1rem;
+      color: #0f0;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 0.75rem;
+      border: 2px solid #0f0;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .link-list a:hover,
+    .link-list a:focus {
+      background-color: #0f0;
+      color: #000;
+      outline: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    /* Estilo de foco visível para acessibilidade */
+    a:focus, button:focus {
+      outline: 3px dashed #0f0;
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Canal Acessibilidade Pro</h1>
+    <p>Conteúdo sobre acessibilidade digital, tecnologia assistiva e inclusão.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="produtos-recomendados">
+      <h2 id="produtos-recomendados">Produtos Acessíveis Recomendados</h2>
+      <p>Apoie o canal comprando através dos nossos links de afiliado. Abaixo você encontra produtos úteis e acessíveis para pessoas com deficiência visual:</p>
+      <div class="link-list">
+        <a href="https://www.mercadolivre.com.br" target="_blank" rel="noopener noreferrer">Mercado Livre (Afiliado)</a>
+        <a href="https://www.amazon.com.br" target="_blank" rel="noopener noreferrer">Amazon (Afiliado)</a>
+        <a href="https://www.shopee.com.br" target="_blank" rel="noopener noreferrer">Shopee (Afiliado)</a>
+      </div>
+    </section>
+
+    <section aria-labelledby="redes-sociais">
+      <h2 id="redes-sociais">Redes Sociais</h2>
+      <div class="link-list">
+        <a href="https://www.youtube.com/@AcessibilidadePro" target="_blank" rel="noopener noreferrer">YouTube - Acessibilidade Pro</a>
+        <a href="https://www.instagram.com/acessibilidadepro/" target="_blank" rel="noopener noreferrer">Instagram - @acessibilidadepro</a>
+        <a href="https://www.facebook.com/AcessibilidadePro" target="_blank" rel="noopener noreferrer">Facebook - Acessibilidade Pro</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Acessibilidade Pro | Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
